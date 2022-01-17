@@ -1,0 +1,13 @@
+
+server:
+  port: 9999
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: auth-demo
+
+jwt:
+  secret:
+    key: dRgUkXp2s5u8x/A?D(G+KbPeShVmYq3tfgdfgkjop/fd_d++32005.-g5f

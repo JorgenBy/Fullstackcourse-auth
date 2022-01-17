@@ -1,0 +1,10 @@
+
+spring:
+  data:
+    mongodb:
+      uri: <CONNECTION_STRING>
+      database: auth-prod
+
+jwt:
+  secret:
+    key: <SECRET_KEY>
